@@ -2,8 +2,6 @@ import { StyleSheet, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
 import { Button, ButtonText } from "@/components/ui/button"
-import { Divider } from '@/components/ui/divider';
-import {Link} from "expo-router"
 
 export default function App() {
   return (
@@ -12,7 +10,6 @@ export default function App() {
       <View style={styles.container}>
         <Text className='uppercase font-extrabold'> pagina home</Text>
          <divider className="my-3 w-52"/>
-         <link href="/pagina1"/>
         <Button className="bg-fuchsia-300">
           <ButtonText className='font-bold text-white'>Primeiro pagina</ButtonText>
         </Button>
