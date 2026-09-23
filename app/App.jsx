@@ -8,10 +8,20 @@ export default function App() {
 
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-
+        <Text>pagina home</Text>
+         <divider className="my-3 w-52"/>
         <Button className="bg-fuchsia-300">
-          <ButtonText className='font-bold'>Primeiro Botão</ButtonText>
+          <ButtonText className='font-bold'>Primeiro pagina</ButtonText>
         </Button>
+        <divider className="my-3 w-20"/>
+         <Button className="bg-fuchsia-300">
+          <ButtonText className='font-bold'>segunda pagina</ButtonText>
+        </Button>
+<divider className="my-3 w-20"/>
+         <Button className="bg-fuchsia-300">
+          <ButtonText className='font-bold'>terceira pagina</ButtonText>
+        </Button>
+
       </View>
     </GluestackUIProvider>
 
